@@ -17,5 +17,30 @@
 
 <h4>Installation & Setup:</h4>
 <ol>
-  <li>Clone the repository:</li>
+  <li>
+    Clone the repository:
+    <ul>
+      <li>git clone https://github.com/IntepeZafer/RandomCourseProject.git</li>
+      <li>cd RandomCourseProject</li>
+      <li>npm install</li>
+      <li>npm run dev</li>
+    </ul>
+  </li>
 </ol>
+<h3>How it Works:</h3>
+<ul>
+  <li>The app has a button labeled "Get Random Course."</li>
+  <li>When clicked, the app randomly selects one of the available courses and displays it in a list.</li>
+  <li>Users can keep clicking the button to see more courses added to the list.</li>
+</ul>
+
+<h3>Future Improvements:</h3>
+<ul>
+  <li>Add more courses and course details.</li>
+  <li>Implement course removal functionality.</li>
+  <li>Add persistence using localStorage or a backend API.</li>
+</ul>
+
+
+
+
