@@ -18,7 +18,7 @@ function App() {
     setCourses([...courses , getRandomCourse()]);
   };
   const courseList = courses.map((item , index) => {
-    return <Course key={index} courseName={item}/>
+    return <Course key={index} courseName={item}/> 
   });
   
 

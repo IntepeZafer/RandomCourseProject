@@ -1,10 +1,17 @@
-import React from 'react'
 import Value from './Value/Value'
-const Course = (courseName) => {
-    console.log(courseName)
+
+const courseMap = {
+    Angular : Value[0].Angular,
+    Bootstrap : Value[1].Bootstrap,
+    Csharp : Value[2].Csharp,
+    ComplyWeb : Value[3].ComplyWeb
+}
+
+// eslint-disable-next-line react/prop-types
+const Course = ({courseName}) => {
   return (
     <div>
-      
+        <img src={courseMap[courseName]} alt="" />
     </div>
   )
 }

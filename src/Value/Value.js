@@ -24,5 +24,6 @@ const Value = [
         title: "ComplyWeb Kursu",
         description : 'Aliqua excepteur culpa nostrud do nostrud. Laborum consequat exercitation ex id laborum aute tempor deserunt cillum duis irure ea reprehenderit sint.'
     },
+    
 ]
 export default Value
