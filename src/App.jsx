@@ -25,8 +25,8 @@ function App() {
   return (
     <>
       <div className='App'>
-        <button onClick={handleClick}>Kurs Ekle</button>
-        <div>{courseList}</div>
+        <button onClick={handleClick} className='buttonApp'>Kurs Ekle</button>
+        <div className='courseList'>{courseList}</div>
       </div>
     </>
   )

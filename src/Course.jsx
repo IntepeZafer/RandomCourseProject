@@ -1,4 +1,5 @@
 import Value from './Value/Value'
+import './Course.css'
 
 const courseMap = {
     Angular : Value[0].Angular,
@@ -10,8 +11,8 @@ const courseMap = {
 // eslint-disable-next-line react/prop-types
 const Course = ({courseName}) => {
   return (
-    <div>
-        <img src={courseMap[courseName]} alt="" />
+    <div className='imageContainer'>
+        <img className='images' src={courseMap[courseName]} alt="" />
     </div>
   )
 }

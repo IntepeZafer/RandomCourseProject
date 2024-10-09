@@ -1,0 +1,9 @@
+.images{
+    width: 50%;
+    object-fit: fill;
+    object-position: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 1rem;
+}
